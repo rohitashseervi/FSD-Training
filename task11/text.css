@@ -1,0 +1,21 @@
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.welcome{
+    position: relative;
+    animation: welcomeAnimation 2s ease-in-out infinite;
+}
+
+@keyframes welcomeAnimation {
+    0% { top:0; }
+    50% { top:50px;
+     }
+    100% { top:0; }
+}

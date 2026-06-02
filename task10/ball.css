@@ -1,0 +1,28 @@
+.body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: move 2s linear infinite;
+    position: absolute;
+}
+@keyframes move {
+    0% {
+        right: 0;
+    }
+    50% {
+       right: 100%;
+    }
+    100% {
+        right: 0;
+    }
+    
+}

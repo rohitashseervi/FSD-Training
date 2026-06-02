@@ -1,0 +1,26 @@
+.navbar{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar  {
+        flex-direction: column;
+    }
+        .navbar a {
+            margin: 10px 0;
+        }
+}
+
+@media screen and (min-width: 770px) {
+    .navbar  {
+        flex-direction: row;
+    }
+        .navbar a {
+            margin: 0 15px;
+        }
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+}
+
+aside {
+    width: 250px;
+    background: #34495e;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    flex: 1;          
+    background: #ecf0f1;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    aside {
+        display: none;
+    }
+}

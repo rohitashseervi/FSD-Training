@@ -2,7 +2,7 @@
 
 This folder contains 4 separate beginner-friendly responsive web projects
 built using HTML, CSS and Bootstrap 5. Each task is in its own folder.
-(No bonus tasks are included, as requested.)
+
 
 ## Tasks
 1. Task1-Student-Management-Portal
